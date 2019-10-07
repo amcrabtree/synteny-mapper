@@ -11,7 +11,8 @@ synteny_mapping_simple.py
 To use this script:
   1. Create sequence file in the same file where the python script is stored. You can either upload a Genbank file containing whatever section you are interested in mapping or edit an Ape file. 
   2. Run script and follow the prompts. Just make sure that the areas you want to show up on this graph are designated as "gene" instead of "misc_feature" when you save the file in the Ape GUI. Only include the area you want mapped in the Ape file- cut everything else out. 
-![ape_prompt.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/ape_prompt.png)
+  
+  ![ape_prompt.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/ape_prompt.png)
 
 * Resulting Image:
 ![NC_001133.9.gb_map.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/NC_001133.9.gb_map.png)
