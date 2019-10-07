@@ -16,7 +16,7 @@ To use this script:
   
   ![ape_prompt.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/ape_prompt.png)
 
-* Resulting Image:
+* Resulting Image from NC_001133.9.gb:
 ![NC_001133.9.gb_map.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/NC_001133.9.gb_map.png)
 
 
@@ -28,4 +28,5 @@ To use this script:
   1. Create sequence file in the same file where the python script is stored. You can either upload a Genbank file containing whatever section you are interested in mapping or edit an Ape file. 
   2. Run script and follow the prompts. You need only specify the template file, and the start and stop positions of your extra gene. Personally, I'd prefer to just annotate everything in Ape, and then use synteny_mapping_simple.py to draw it. 
 
+* Resulting Image from ToxinSeq.gb and new gene @ 600-800 bp:
 ![ToxinSeq.gb_map.png](https://raw.githubusercontent.com/amcrabtree/synteny-mapper/master/images/ToxinSeq.gb_map.png)
